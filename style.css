@@ -1,0 +1,181 @@
+/* 
+ Palette:
+ * #FABE28 GIALLO -menu
+ * #D68189 ROSA -sfondo principale
+ * #E94E77 FUCSIA 
+ * #F4EAD5 -cit
+ * 
+ * */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body, .container-fluid, .navbar{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+
+/*scroolbar */
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+
+    
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #C6A49A;
+  outline: 1px solid #FABE28;
+  border-radius: 10px;
+}
+
+/*end- scroolbar */
+
+.row{
+    margin:0;
+    padding:0;
+}
+
+.navbar, .navbar-default, .navbar-nav>li>a, .navbar-brand{
+    background-color: #D68189;
+    color: #FABE28!important;
+    border: none;
+}
+
+.main-visible{
+    height: 100vh;
+    background-color: #D68189;
+    border-bottom: 2px solid #E94E77;
+}
+
+#quote>.fa{
+    color: #FABE28;
+}
+
+.fa-envelope-o{color: #E94E77;}
+.short-text, .cit{
+    color: #F4EAD5;
+    padding: 2em 5em 0 0;
+}
+
+#btn-email {
+    color: #F4EAD5;
+    background-color: #E94E77;
+    border-color: #C6A49A;
+}
+
+#why{
+   position:absolute; 
+   bottom:0; 
+   background-color: #F4EAD5;
+   color: #E94E77;
+   border-radius: 8px 8px 0 0;
+}
+#why>p{
+    padding:1em 0 0 0;
+}
+#why>p>.fa{
+    color:#FABE28;
+}
+
+form{
+    padding: 2em 0;
+}
+
+.input-group-addon {
+    color: #E94E77;
+    background-color: #C6E5D9;
+    border: 1px solid #FABE28;
+    border-radius: 4px;
+}
+
+.form-control {
+    color: #555;
+    border: 1px solid #FABE28;
+    border-radius: 4px;
+}
+
+/* below visible*/
+.need{
+    background-color: #F4EAD5;
+}
+
+.how-to{
+    /*background-color: rgba(198,164,154,0.3);*/
+   background-color:#FFF;
+}
+.need>.row>.col-md-3{
+    margin:0;
+    padding:0;    
+}
+
+.need>.row>.col-md-3>p{
+    margin-top:2em;
+}
+.need-long-text{
+    font-family: 'Gloria Hallelujah', cursive;
+    color:#E94E77;
+}
+
+.need-why2 {
+    -ms-transform: matrix(1, -0.3, 0, 1.5, 10, 50); /* IE 9 */
+    -webkit-transform: matrix(1, -0.3, 0, 1.5, 10, 50); /* Safari */
+    transform: matrix(1, -0.3, 0, 1.5, 10, 50); /* Standard syntax */
+}
+.need-why3{
+    -ms-transform: matrix(1, 0.3, 0, 1, 80, -50); /* IE 9 */
+    -webkit-transform: matrix(1, 0.3, 0, 1, 80, -50); /* Safari */
+    transform: matrix(1, 0.3, 0, 1, 80, -50); /* Standard syntax */   
+}
+
+#thinker{
+    max-width: 20%;
+    border-bottom:#E94E77 solid 1px;
+}
+
+#mark1>mark{
+    background-color: #FABE28;
+    color: #FFF;
+}
+
+#mark2>mark{
+    background-color: #D68189;
+    color: #F4EAD5;
+}
+#mark3>mark{
+    background-color: #C6E5D9;
+    color: #D68189;
+}
+
+/*how to*/
+#how-to-title{
+    color:#C6A49A;
+}
+
+.long-text{
+    margin: 2em 0 2em 0;
+    
+}
+
+/*contact */
+
+.contact{
+    background-color: #C6E5D9;
+    color: #E94E77;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+/*footer*/
+
+footer{
+    border-top: 2px solid #FABE28;
+    background-color: #E94E77;
+    color:#FABE28;
+}
